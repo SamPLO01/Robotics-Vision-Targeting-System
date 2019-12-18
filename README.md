@@ -1,2 +1,3 @@
 # Robotics-Vision-Targeting-System
 The Robotics Vision Targeting System I programmed in python that uses the opencv library and a gradient descent algorithm to find the distance and angle to a target.
+The program identifies contours using hue, saturation, and value. Once the program has filtered using contours, it again filters using a function to check if the identified contours are targets. The function tests whether the contours are rectangles and if they are of similar sizes. If the contours are targets the program then calculates the distance to the center of the targets using a gradient descent algorithm. The program also calculates the angle between the camera and the targets.
